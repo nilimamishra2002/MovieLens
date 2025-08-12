@@ -6,7 +6,6 @@ import Chart3 from "./pages/Chart3";
 import Chart4 from "./pages/Chart4";
 import Chart5 from "./pages/Chart5";
 import Chart6 from "./pages/Chart6";
-import PDFViewer from "./components/PDFViewer";
 import RawVsProcessed from "./pages/RawVsProcessed"; // <-- Make sure the path matches your file structure
 
 
