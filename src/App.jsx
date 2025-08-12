@@ -21,7 +21,6 @@ function App() {
         <Route path="/chart4" element={<Chart4 />} />
         <Route path="/chart5" element={<Chart5 />} />
         <Route path="/chart6" element={<Chart6 />} />
-        <Route path="/pdf" element={<PDFViewer />} />
         <Route path="/raw-dataset" element={<RawVsProcessed />} />
       </Routes>
     </Router>
