@@ -42,12 +42,6 @@ MovieLens-Dashboard/
 
 ---
 
-## 📷 Screenshots
-### Dashboard Preview
-![MovieLens Dashboard Preview](./screenshot.png)
-
----
-
 ## ⚡ Setup & Run Locally
 ```bash
 # Clone repo
