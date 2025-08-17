@@ -24,39 +24,6 @@ This project demonstrates **data cleaning, modeling, visualization, and deployme
 ---
 
 ## 📂 Project Structure
-ChatGPT said:
-
-Perfect 👌 — I remember your Personalproject (MyPersonalMeal) repo had a nice README.md with project overview, features, tech stack, and setup. Let’s do the same for your MovieLens Dashboard repo so it looks professional and recruiter-friendly.
-
-Here’s a draft README.md for your MovieLens Dashboard (optimized like top 1% developer portfolios):
-
-# 🎬 MovieLens Dashboard
-
-An interactive analytics dashboard built on the **MovieLens dataset**, designed to provide insights into movie trends, ratings, genres, and user preferences.  
-This project demonstrates **data cleaning, modeling, visualization, and deployment skills** using Power BI, DAX, and React.
-
----
-
-## 🚀 Features
-- 📊 **Data Cleaning & Transformation**: Processed raw MovieLens dataset, removed inconsistencies, and clustered genres.  
-- ⚡ **DAX Measures & Calculations**: Created new calculated columns and measures (e.g., Average Ratings, User Engagement Score, Movie Popularity Index).  
-- 🎨 **Interactive Dashboard**: Filters for year, genre, and rating distribution with dynamic visuals.  
-- 🌐 **Deployment**: Hosted live on **Vercel** for easy accessibility.  
-
-🔗 **Live Demo** → [MovieLens Dashboard on Vercel](https://movie-lens-insights-azure.vercel.app/)
-
----
-
-## 🛠 Tech Stack
-- **Power BI** → Data modeling, DAX measures, and interactive dashboard design  
-- **React + Vite** → Frontend integration and deployment-ready structure  
-- **Vercel** → Cloud hosting for fast and scalable deployment  
-- **GitHub** → Version control and project showcase  
-
----
-
-## 📂 Project Structure
-
 
 MovieLens-Dashboard/
 │── data/ # Raw & cleaned datasets (samples included)
