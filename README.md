@@ -1,12 +1,94 @@
-# React + Vite
+# 🎬 MovieLens Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive analytics dashboard built on the **MovieLens dataset**, designed to provide insights into movie trends, ratings, genres, and user preferences.  
+This project demonstrates **data cleaning, modeling, visualization, and deployment skills** using Power BI, DAX, and React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 📊 **Data Cleaning & Transformation**: Processed raw MovieLens dataset, removed inconsistencies, and clustered genres.  
+- ⚡ **DAX Measures & Calculations**: Created new calculated columns and measures (e.g., Average Ratings, User Engagement Score, Movie Popularity Index).  
+- 🎨 **Interactive Dashboard**: Filters for year, genre, and rating distribution with dynamic visuals.  
+- 🌐 **Deployment**: Hosted live on **Vercel** for easy accessibility.  
 
-## Expanding the ESLint configuration
+🔗 **Live Demo** → [MovieLens Dashboard on Vercel](https://movie-lens-insights-azure.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+- **Power BI** → Data modeling, DAX measures, and interactive dashboard design  
+- **React + Vite** → Frontend integration and deployment-ready structure  
+- **Vercel** → Cloud hosting for fast and scalable deployment  
+- **GitHub** → Version control and project showcase  
+
+---
+
+## 📂 Project Structure
+ChatGPT said:
+
+Perfect 👌 — I remember your Personalproject (MyPersonalMeal) repo had a nice README.md with project overview, features, tech stack, and setup. Let’s do the same for your MovieLens Dashboard repo so it looks professional and recruiter-friendly.
+
+Here’s a draft README.md for your MovieLens Dashboard (optimized like top 1% developer portfolios):
+
+# 🎬 MovieLens Dashboard
+
+An interactive analytics dashboard built on the **MovieLens dataset**, designed to provide insights into movie trends, ratings, genres, and user preferences.  
+This project demonstrates **data cleaning, modeling, visualization, and deployment skills** using Power BI, DAX, and React.
+
+---
+
+## 🚀 Features
+- 📊 **Data Cleaning & Transformation**: Processed raw MovieLens dataset, removed inconsistencies, and clustered genres.  
+- ⚡ **DAX Measures & Calculations**: Created new calculated columns and measures (e.g., Average Ratings, User Engagement Score, Movie Popularity Index).  
+- 🎨 **Interactive Dashboard**: Filters for year, genre, and rating distribution with dynamic visuals.  
+- 🌐 **Deployment**: Hosted live on **Vercel** for easy accessibility.  
+
+🔗 **Live Demo** → [MovieLens Dashboard on Vercel](https://movie-lens-insights-azure.vercel.app/)
+
+---
+
+## 🛠 Tech Stack
+- **Power BI** → Data modeling, DAX measures, and interactive dashboard design  
+- **React + Vite** → Frontend integration and deployment-ready structure  
+- **Vercel** → Cloud hosting for fast and scalable deployment  
+- **GitHub** → Version control and project showcase  
+
+---
+
+## 📂 Project Structure
+
+
+MovieLens-Dashboard/
+│── data/ # Raw & cleaned datasets (samples included)
+│── powerbi/ # Power BI report files
+│── src/ # React frontend code
+│── public/ # Static assets
+│── README.md # Project documentation
+
+
+---
+
+## 📈 Key Insights
+- **Most Popular Genres**: Action & Drama dominate user engagement.  
+- **Average Rating Trends**: Dramas show higher average ratings compared to Action.  
+- **User Behavior**: Power users (top 5% reviewers) influence rating distributions significantly.  
+
+---
+
+## 📷 Screenshots
+### Dashboard Preview
+![MovieLens Dashboard Preview](./screenshot.png)
+
+---
+
+## ⚡ Setup & Run Locally
+```bash
+# Clone repo
+git clone https://github.com/your-username/MovieLens-Dashboard.git
+cd MovieLens-Dashboard
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
